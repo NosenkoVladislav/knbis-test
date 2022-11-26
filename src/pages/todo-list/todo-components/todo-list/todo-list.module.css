@@ -1,0 +1,35 @@
+div.paper {
+  max-width: 800px;
+  min-height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: var(--bg-secondary);
+  position: relative;
+}
+
+.btnGroup {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+button.cancelBtn,
+button.cancelBtn:hover {
+  color: var(--danger);
+  border-color: var(--danger);
+  background-color: transparent;
+  font-size: 16px;
+}
+
+button.saveBtn,
+button.saveBtn:hover {
+  background-color: var(--primary-blue);
+  color: #fff;
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+.list {
+  max-height: 400px;
+  overflow-y: scroll;
+}

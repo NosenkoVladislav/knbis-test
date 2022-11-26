@@ -1,0 +1,33 @@
+.item {
+  background: #fff;
+}
+
+button.actionButton:not(.actionButton:first-child) {
+  margin-left: 10px;
+}
+
+svg.actionIcon {
+  font-size: 20px;
+}
+
+.done {
+  opacity: 0.5;
+}
+
+.content {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary);
+  width: calc(100% - 100px);
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+div.checkWrap {
+  min-width: unset;
+  margin-right: 10px;
+}
